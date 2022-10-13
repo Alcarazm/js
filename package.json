@@ -15,6 +15,7 @@
     "dev8": "nodemon await/2_axios.js",
     "dev9": "nodemon await/3_needle.js",
     "dev10": "nodemon evidencia/univercidades.js",
+    "dev11": "nodemon evidencia/cats.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -12,7 +12,9 @@ let config= {
 const f = async ()=>{
     try{
         let response = await axios(config)
-        exito(response.data)
+        response.body.forEach(pais =>{
+            console.log(pais.name.common)
+        })
     }catch (error){
         fallo(error)
     }

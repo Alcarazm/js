@@ -1,14 +1,17 @@
 const needle = require ('needle')
 const colors = require ('colors')
 
-const endpoint = "https://pokeapi.co/api/v2/type"
+const endpoint = "https://cat-fact.herokuapp.com/facts"
 
 
 
 const f = async () =>{
     try {
         const response = await needle('get',endpoint)
-        exito(response.body)
+        response.body.forEach(cat =>{
+            console.log(cat.text)
+            console.log('-------------------')
+        })
     } catch (error) {
         fallo(error)
     }
