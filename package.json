@@ -1,0 +1,31 @@
+{
+  "name": "modo_asincromo_2465903",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon callback/1_simple.js",
+    "dev2": "nodemon callback/2_simple_arrow.js",
+    "dev3": "nodemon callback/3_request.js",
+    "dev4": "nodemon promises/1_simple_arrow.js",
+    "dev5": "nodemon promises/2_axios.js",
+    "dev6": "nodemon promises/3_needle.js",
+    "dev7": "nodemon await/1_simple.js",
+    "dev8": "nodemon await/2_axios.js",
+    "dev9": "nodemon await/3_needle.js",
+    "dev10": "nodemon evidencia/univercidades.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "colors": "^1.4.0",
+    "needle": "^3.1.0",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
